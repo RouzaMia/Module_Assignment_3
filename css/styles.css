@@ -1,0 +1,157 @@
+*{box-sizing: border-box;}
+body {
+  font-size: 15px;
+  color: black;
+  background-color:white;
+}
+
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  height: 70px;
+  border: 2px solid black !important;
+  }
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list{
+  border:2px solid white;
+
+}
+
+#nav-list li{
+  background:white;
+  border-bottom:2px solid;
+}
+#nav-list li a{
+  color:black;
+  font-weight: bold;
+  line-height: 2px
+  
+}
+
+.menu{
+  margin:16px; 
+}
+.content_title{
+      font-weight: bold;
+    margin-top: -3px;
+    padding-left: 13%;
+}
+
+.content{ 
+  margin-top:40px;
+}
+.content_title{
+  font-weight: bold;
+  margin-top: -3px;
+}
+.menu_wrap{
+  margin-bottom: 75px;
+  background:gray;  
+  padding: 15px;
+
+      width: 113%;
+}
+.menu_wrap h4 {
+  font-weight: bold;
+  font-size: 25px;
+
+}
+.menu_wrap p{
+  font-weight:600;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -66px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .menu_wrap{
+  margin-bottom: 75px;
+  background:gray;  
+  padding: 15px;
+      width: 112.5%;
+    }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .menu_wrap{
+  margin-bottom: 75px;
+ background:gray;  
+  padding: 15px;
+      width: 113%;
+    }
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu_wrap{
+  margin-bottom: 75px;
+  background:gray;  
+  padding: 15px;
+      width: 113%;
+    }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width:767px){
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+}
+.content_title{
+    font-weight: bold;
+    margin-top: 30px;
+     padding-left: 5%;
+  }
+
+.text-center {
+    text-align: center;
+}
+.menu_wrap{
+  margin-bottom: 75px;
+  background:gray;  
+  padding: 15px;
+      width: 100%;
+    }
+
+  }
